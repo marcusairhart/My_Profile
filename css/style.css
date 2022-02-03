@@ -1,0 +1,128 @@
+/* Declaration of fonts to be used on webpage.
+Please refer to the css/fonts/demo.html file for correct use.
+WebFontKit generated via www.transfonter.org
+*/
+@font-face {
+    font-family: 'Avenir LT Std Roman';
+    src: url('fonts/AvenirLTStd-Roman.woff2') format('woff2'),
+        url('fonts/AvenirLTStd-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std Black';
+    src: url('fonts/AvenirLTStd-Black.woff2') format('woff2'),
+        url('fonts/AvenirLTStd-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std Book';
+    src: url('fonts/AvenirLTStd-Book.woff2') format('woff2'),
+        url('fonts/AvenirLTStd-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* End of font decleration */
+
+#profile_picture {
+    width: 250px;
+    height: 250px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+
+body {
+    font-family: "Avenir LT Std Book";
+    font-weight: normal;
+    font-style: normal;
+    background-color: white;
+    color: black;
+    font-size: ligther;
+}
+
+h1, h2, h3 {
+    font-family: "Avenir LT Std Black";
+    font-weight: 50;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+h1, h2 {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Avenir LT Std Black";
+    color: #0fc2d6;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #c4c4c4;
+    
+}
+
+p {
+    text-justify: center;
+    text-justify: justify;
+}
+
+/* Intitalising the introduction animation */
+.introduction-animation{
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+.first-selector {
+    animation: showup 7s 1;
+    
+}
+
+.second-selector {
+    width:0px;
+    animation: reveal 7s ;
+    animation-fill-mode: forwards;
+    
+}
+
+.second-selector.span {
+    margin-left:-355px;
+    animation: slidein 7s;
+    animation-iteration-count: 1;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:1;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:1;width:355px;}
+    
+}
+
+/* end of introduction animation */

@@ -41,7 +41,7 @@ WebFontKit generated via www.transfonter.org
 @media (max-width: 960px) {
     /* For a screen < 960px, this CSS will be read */
     .container {
-      width: 700px;
+      width: 710px;
     }
   }
   @media (max-width: 720px) {
@@ -161,6 +161,10 @@ p {
     height: 250px;
 }
 
+.introduction-information p {
+    padding-top: 10px;
+}
+
 /* End of adjustments */
 
 /* Intitalising the introduction animation */
@@ -169,6 +173,7 @@ p {
     overflow:hidden;
     white-space:nowrap;
 }
+
 
 .first-selector {
     animation: showup 7s 1;

@@ -30,14 +30,33 @@ WebFontKit generated via www.transfonter.org
 }
 /* End of font decleration */
 
-#profile_picture {
-    width: 250px;
-    height: 250px;
-}
 
-.img-circle {
-    border-radius: 50%;
-}
+/* Start of media queries */
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+
+/* End of  media queries */
+
+
+/* Start of general elements */
+
+
 
 
 body {
@@ -76,6 +95,70 @@ p {
     text-justify: center;
     text-justify: justify;
 }
+
+/* Custom design with class */
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn-blue {
+    background-color: #0fc2d6;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover {
+    background-color: black;
+    color: white;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: #0fc2d6;
+}
+
+.list-inline i:hover {
+    color: black;
+}
+
+/* Start of adjustments */
+
+#introduction p {
+    margin-bottom: 40px;
+}
+
+#profile_picture {
+    width: 250px;
+    height: 250px;
+}
+
+/* End of adjustments */
 
 /* Intitalising the introduction animation */
 .introduction-animation{

@@ -1,3 +1,7 @@
+
+
+
+
 /* Declaration of fonts to be used on webpage.
 Please refer to the css/fonts/demo.html file for correct use.
 WebFontKit generated via www.transfonter.org
@@ -31,6 +35,8 @@ WebFontKit generated via www.transfonter.org
 /* End of font decleration */
 
 
+
+
 /* Start of media queries */
 @media (max-width: 960px) {
     /* For a screen < 960px, this CSS will be read */
@@ -55,9 +61,6 @@ WebFontKit generated via www.transfonter.org
 
 
 /* Start of general elements */
-
-
-
 
 body {
     font-family: "Avenir LT Std Book";

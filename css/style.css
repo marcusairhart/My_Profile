@@ -150,6 +150,16 @@ p {
     color: black;
 }
 
+.language_container {
+    text-align: left;
+}
+
+.languageLogo {
+    width: 15%;
+    height: 15%;
+}
+
+
 /* Start of adjustments */
 
 #introduction p {
@@ -160,6 +170,7 @@ p {
     width: 250px;
     height: 250px;
 }
+
 
 .introduction-information p {
     padding-top: 10px;

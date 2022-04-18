@@ -136,6 +136,15 @@ p {
     padding-left: 0px;
 }
 
+.list-inline-languageLogo{
+    padding-left: 0px;
+}
+
+.list-inline-languageLogo li {
+    display: inline;
+    padding: 10px;
+}
+
 .list-inline li {
     display: inline;
     padding: 10px;
@@ -150,14 +159,16 @@ p {
     color: black;
 }
 
-.language_container {
+.logo_container {
     text-align: left;
 }
 
-.languageLogo {
-    width: 15%;
-    height: 15%;
-}
+.
+
+
+
+
+
 
 
 /* Start of adjustments */
@@ -166,10 +177,22 @@ p {
     margin-bottom: 40px;
 }
 
+#textModifier {
+    position: absolute;
+}
+
 #profile_picture {
     width: 250px;
     height: 250px;
 }
+
+
+#solidity_logo {
+    width: 15%;
+    height: 15%;
+}
+
+
 
 
 .introduction-information p {
